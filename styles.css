@@ -1,0 +1,32 @@
+body {
+    background-color: #0B2447;
+    background-image: url('../images/background-icons.svg');
+    display: flex;
+    flex-direction:column;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .fetch__button {
+    padding: 10px 20px;
+    background-color: #576CBC;
+    color: #000;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition:all 0.2s linear;
+
+  }
+  .fetch__button:hover {
+        background: #A5D7E8;
+  }
+  .fetch__title {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .fetch__text {
+    color: #fff;
+  }
